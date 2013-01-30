@@ -66,7 +66,7 @@ namespace WindowsFormsApplication1
                 {
                     File.Copy(foundedFiles[j][1], label3.Text + "\\" + foundedFiles[j][0]);
                 }
-                catch (Exception exc)
+                catch ()
                 {
                     File.Copy(foundedFiles[j][1], label3.Text + "\\(" + i + ")" + g +")" +foundedFiles[j][0]);
                     i++;
